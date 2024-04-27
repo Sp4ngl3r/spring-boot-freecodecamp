@@ -1,0 +1,23 @@
+spring:
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/spring_3_exploration
+    username: spangl3r
+    password: 9845
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    open-in-view: false
+
+    properties:
+      hibernate:
+        format_sql: true
+
+
+#    database: postgresql
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
